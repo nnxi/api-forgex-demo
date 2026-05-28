@@ -1,10 +1,11 @@
-# AFX API Tester
+# api-forgex-cli API Tester
 
 백엔드 API 엔드포인트를 브라우저에서 빠르게 시험하는 간단한 React UI입니다.
 
 ## 사전 조건
 
 - 백엔드 서버가 실행 중이어야 합니다 (`npm run dev`, 기본 포트 `8080`)
+- DB를 선택한 경우 Docker를 통한 DB 서버 또한 실행 중이어야 합니다
 - CORS: 백엔드 `.env`의 `CORS_ORIGIN`이 `http://localhost:3000`이거나 미설정(기본값)이어야 합니다
 
 ## 실행
